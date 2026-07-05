@@ -25,10 +25,10 @@ export default function Callout() {
         </p>
         <div className="callout_body">
           <p className="callout_text">
-            Whether you're launching in one market or ten, we're here to make your research simple, smart, and human from day one. Let's talk about your next project.
+            Whether you're here to explore or support my work, thank you for being part of this journey. Every design is created with passion, creativity, and attention to detail.
           </p>
           <a href="/contact-us" className="btn btn-charcoal callout_btn">
-            Get a quote <ArrowRight />
+            Talk to me! <ArrowRight />
           </a>
           <ul className="callout_bullets">
             {bullets.map(b => (

@@ -12,11 +12,12 @@ export default function Footer() {
         <div className="footer_top">
           <div className="footer_cta-col">
             <p className="footer_cta-text">
-              Have a project in mind? We'd love to hear what you're working on and show you how we can help. Whether you're exploring a new market or launching your next product, we're ready when you are.
+              Let's Create Something Meaningful.<br /><br />
+              Every great journey begins with a conversation. Whether you have a question, feedback, or just want to say hello, I'd love to hear from you.
             </p>
             <div style={{ marginTop: 24 }}>
               <a href="/contact-us" className="btn btn-charcoal">
-                Get a quote <ArrowRight />
+                Talk to me! <ArrowRight />
               </a>
             </div>
           </div>
@@ -51,38 +52,26 @@ export default function Footer() {
           <div className="footer_offices">
             <div className="footer_office">
               <p>
-                <strong>Dubai</strong><br />
-                <a
-                  href="https://www.google.com/maps/place/MindMarket+International/@25.1250606,55.3811616,17z"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Dubai Silicon Oasis, DDP,<br />
-                  Building A2, 341041 Dubai, UAE
-                </a><br />
-                Mon-Fri 10:00 am - 7:00 pm (GST)
+                <strong>Digital Studio</strong><br />
+                Designed with passion.<br />
+                Available Worldwide.<br />
+                <br />
+                Open 24/7
               </p>
             </div>
 
             <div className="footer_office">
               <p>
-                <strong>London</strong><br />
-                <a
-                  href="https://www.google.com/maps/place/MindMarket/@51.5256447,-0.0862333,17z"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  3rd Floor, 86-90 Paul Street,<br />
-                  London EC2A 4NE, UK
-                </a><br />
-                Mon-Fri 9:00 am - 6:00 pm (GMT)
+                <a href="https://mindmarket-clone-seven.vercel.app" target="_blank" rel="noopener">
+                  <strong>mindmarket-clone-seven.vercel.app</strong>
+                </a>
               </p>
             </div>
 
             <div className="footer_office">
               <p>
-                <a href="mailto:curious@mindmarket.com">
-                  <strong>curious@mindmarket.com</strong>
+                <a href="mailto:amit@xyz.com">
+                  <strong>amit@xyz.com</strong>
                 </a>
               </p>
             </div>
@@ -92,31 +81,9 @@ export default function Footer() {
         {/* Legal bar */}
         <div className="footer_legal">
           <p className="footer_copyright">
-            Copyright © 2026 MindMarket International
+            Copyright © 2026 Amit
           </p>
-          <div className="footer_esomar">
-            <a href="https://www.esomar.org/" target="_blank" rel="noopener noreferrer">
-              <img
-                src="/images/esomar-3f96eb5c9c.png"
-                alt="ESOMAR"
-                loading="lazy"
-                style={{ maxWidth: 200, height: 'auto' }}
-              />
-            </a>
-          </div>
-          <div className="footer_social">
-            <ul>
-              <li>
-                <a
-                  href="https://www.linkedin.com/company/the-mindmarket"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  LinkedIn
-                </a>
-              </li>
-            </ul>
-          </div>
+          <div className="footer_social" />
         </div>
       </div>
     </footer>

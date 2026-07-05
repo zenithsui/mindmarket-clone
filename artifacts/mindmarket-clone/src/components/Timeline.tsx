@@ -9,7 +9,7 @@ const tiles = [
     color: 'var(--color-red)',
     textColor: 'var(--color-charcoal)',
     title: 'No more chaos.',
-    desc: 'Managing multiple vendors, juggling time zones, translating insights across cultures — it adds up fast. At MindMarket, we bring it all under one roof. No misalignment, no friction, just seamless collaboration from start to finish.',
+    desc: 'Managing multiple vendors, juggling time zones, translating insights across cultures — it adds up fast. At Amit, we bring it all under one roof. No misalignment, no friction, just seamless collaboration from start to finish.',
     cta: 'Services',
     href: '/services',
   },
@@ -102,11 +102,11 @@ export default function Timeline() {
         <div className="timeline_desc">
           <div className="timeline_desc_inner">
             <p>
-              MindMarket delivers global qualitative market research through real people who understand local cultures. We connect you with the voices that matter— wherever they are — to help you make smarter, faster business decisions with confidence.
+              This website was built from my passion for creating. Every piece represents my ideas, creativity, and love for design. Thank you for being part of this journey.
             </p>
             <div>
               <a href="/contact-us" className="btn btn-green">
-                Get a quote <ArrowRight />
+                Talk to me! <ArrowRight />
               </a>
             </div>
           </div>

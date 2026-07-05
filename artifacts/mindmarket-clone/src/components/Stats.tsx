@@ -20,20 +20,20 @@ const cards = [
   {
     modifier: '-blue',
     icon: <GlobeIcon />,
-    stat: '60+',
-    desc: 'Our network spans over 60 countries, giving you local insight with global consistency.',
+    stat: '100%',
+    desc: 'Built with passion, creativity, and dedication from day one.',
   },
   {
     modifier: '-green',
     icon: <CheckCircleIcon />,
-    stat: '400',
-    desc: "We've successfully delivered more than 400 research projects around the world — and counting.",
+    stat: '∞',
+    desc: 'Unlimited ideas, always creating something new.',
   },
   {
     modifier: '-red',
     icon: <HeartIcon />,
-    stat: '40+',
-    desc: 'From global brands to growing startups, more than 40 clients have partnered with us across multiple markets.',
+    stat: '1',
+    desc: 'One vision. One creator. One brand — Made by Amit.',
   },
 ]
 
@@ -43,12 +43,11 @@ export default function Stats() {
       <div className="stats_inner">
         <div className="stats_left">
           <h2 className="stats_title">
-            A few numbers behind the{' '}
-            <strong>insights</strong>
-            {' '}we deliver
+            A few things that define{' '}
+            <strong>this brand</strong>
           </h2>
           <p className="stats_desc">
-            These numbers are more than just milestones. They represent the strength of our connections, the consistency of our work, and the real-world impact we help create for you.
+            This brand wasn't created to chase numbers—it was created to bring original ideas to life. Every design reflects creativity, craftsmanship, and a commitment to making something meaningful.
           </p>
         </div>
 

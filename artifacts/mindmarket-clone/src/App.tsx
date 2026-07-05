@@ -5,7 +5,6 @@ import Timeline from './components/Timeline'
 import Callout from './components/Callout'
 import Stats from './components/Stats'
 import Articles from './components/Articles'
-import Brands from './components/Brands'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -18,7 +17,6 @@ export default function App() {
         <Callout />
         <Stats />
         <Articles />
-        <Brands />
       </main>
       <Footer />
     </>
