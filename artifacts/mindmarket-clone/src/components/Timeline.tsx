@@ -39,29 +39,6 @@ const tiles = [
   },
 ]
 
-// Static character illustrations (approximation of the Rive animation)
-const KaisCharacter = () => (
-  <div className="timeline_character timeline_character--kais" aria-hidden="true">
-    <img
-      src="/images/1762710839-sina_sinah_mindmarket.jpg"
-      alt=""
-      className="timeline_char-img"
-      loading="eager"
-    />
-  </div>
-)
-
-const NydiaCharacter = () => (
-  <div className="timeline_character timeline_character--nydia" aria-hidden="true">
-    <img
-      src="/images/1758762238-nydia-photo-website.avif"
-      alt=""
-      className="timeline_char-img"
-      loading="eager"
-    />
-  </div>
-)
-
 export default function Timeline() {
   return (
     <section className="timeline">
@@ -81,7 +58,7 @@ export default function Timeline() {
           <div className="timeline_chars">
             <div className="timeline_char-kais">
               <img
-                src="/images/1758761960-kais-website-photo.avif"
+                src="/images/amit-img-1.jpg"
                 alt=""
                 loading="eager"
                 width="200"
@@ -89,7 +66,7 @@ export default function Timeline() {
             </div>
             <div className="timeline_char-nydia">
               <img
-                src="/images/1758762238-nydia-photo-website.avif"
+                src="/images/amit-img-2.jpg"
                 alt=""
                 loading="eager"
                 width="200"
