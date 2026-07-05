@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "selector": "#swup",
+    "type": "hero",
+    "tag": "div",
+    "classes": "transition-slide",
+    "headings": [
+      "Real human insights",
+      "One global partner",
+      "No more chaos.",
+      "One brief. One team.",
+      "Speak their language."
+    ],
+    "buttons": [
+      "Get a quote",
+      "Services",
+      "Methodology",
+      "Industry Sectors",
+      "Our Network"
+    ],
+    "imageCount": 79,
+    "textPreview": "Real human insights\nOne global partner\nReal human insights\nOne global partner\n\nMindMarket delivers global qualitative market research through real people who understand local cultures. We connect you with the voices that matter\u2014 wherever they are \u2014 to help you make smarter, faster business decisions",
+    "height": 13732
+  },
+  {
+    "index": 999,
+    "selector": "footer",
+    "type": "footer",
+    "tag": "footer",
+    "classes": "c-footer",
+    "headings": [
+      "Dubai",
+      "London",
+      "curious@mindmarket.com"
+    ],
+    "buttons": [],
+    "imageCount": 1,
+    "textPreview": "Have a project in mind? We'd love to hear what you're working on and show you how we can help. Whether you're exploring a new market or launching your next product, we're ready when you are.\n\nGet a quote\nServices\nMethodology\nIndustry Sectors\nNetwork\nAbout Us\nInsights\nContact\nPrivacy Policy\nCookie Preferences\n\nLet\u2019s\nConnect\n\nDubai\nDubai Silicon Oasis, DDP,\nBuilding A2, 341041 Dubai, UAE\nMon-Fri 10:",
+    "height": 901
+  }
+]

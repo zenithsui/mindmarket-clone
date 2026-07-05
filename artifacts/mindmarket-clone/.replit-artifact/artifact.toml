@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "MindMarket Clone"
+version = "1.0.0"
+id = "artifacts/mindmarket-clone"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25172
+
+[services.development]
+run = "pnpm --filter @workspace/mindmarket-clone run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mindmarket-clone", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/mindmarket-clone/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25172"
+BASE_PATH = "/"

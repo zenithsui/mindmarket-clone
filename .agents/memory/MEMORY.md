@@ -1,0 +1,1 @@
+- [MindMarket clone structure](mindmarket-clone.md) — extracted tokens, brand colors, downloaded assets, and component breakdown for the MindMarket homepage clone.
