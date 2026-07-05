@@ -1,0 +1,7 @@
+{
+  "installCommand": "npm install -g pnpm@9 && pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm run --filter @workspace/mindmarket-clone build:prod",
+  "outputDirectory": "artifacts/mindmarket-clone/dist",
+  "framework": null,
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
