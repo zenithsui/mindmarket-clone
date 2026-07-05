@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 const tiles = [
   {
     title: 'No more chaos.',
-    description: 'Managing multiple vendors, juggling time zones, translating insights across cultures — it adds up fast. At MindMarket, we bring it all under one roof. No misalignment, no friction, just seamless collaboration from start to finish.',
+    description: 'Managing multiple vendors, juggling time zones, translating insights across cultures — it adds up fast. At Amit, we bring it all under one roof. No misalignment, no friction, just seamless collaboration from start to finish.',
     cta: 'Services',
     href: '/services',
     bg: '#ff705d',

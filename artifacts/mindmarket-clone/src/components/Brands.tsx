@@ -55,7 +55,7 @@ function Rail({ brands, reverse }: { brands: BrandItem[]; reverse?: boolean }) {
 export default function Brands() {
   return (
     <section className="brands">
-      <h2 className="brands_title">Brands that choose MindMarket</h2>
+      <h2 className="brands_title">Brands that choose Amit</h2>
       <div className="brands_rails">
         <Rail brands={rail1} />
         <Rail brands={rail2} reverse />
